@@ -9,8 +9,7 @@ url = 'draftcombinestats'
 def doit(start_season):
 
   df = pd.DataFrame()
-  print('hello')
-
+  
   for i in range(start_season, 2024):
     print(i)
     parameters = {'LeagueID': '00', 'SeasonYear': i}
